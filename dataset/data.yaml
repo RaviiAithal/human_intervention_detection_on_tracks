@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['sitting', 'sleeping', 'standing', 'track']
+
+roboflow:
+  workspace: train-glndj
+  project: theend-nx7mc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/train-glndj/theend-nx7mc/dataset/1
