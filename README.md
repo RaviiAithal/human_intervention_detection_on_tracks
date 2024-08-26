@@ -15,3 +15,6 @@ This dataset is also available on Kaggle.
 
 ## Model
 The project leverages the YOLOv8 architecture for real-time object detection. The model was trained on the custom dataset using transfer learning, starting from pre-trained weights on the COCO dataset.
+
+## Results
+This model achieved the mAP50 92.3(%), recall 80.6(%) and precision 95.2(%). The model is able to detect the classes with good confidence.
